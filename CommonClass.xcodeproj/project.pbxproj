@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96081B8321B8FE7A00E4FF57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B8221B8FE7A00E4FF57 /* AppDelegate.m */; };
-		96081B8621B8FE7A00E4FF57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B8521B8FE7A00E4FF57 /* ViewController.m */; };
 		96081B8921B8FE7A00E4FF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96081B8721B8FE7A00E4FF57 /* Main.storyboard */; };
 		96081B8B21B8FE7A00E4FF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96081B8A21B8FE7A00E4FF57 /* Assets.xcassets */; };
 		96081B8E21B8FE7A00E4FF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96081B8C21B8FE7A00E4FF57 /* LaunchScreen.storyboard */; };
 		96081B9121B8FE7A00E4FF57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B9021B8FE7A00E4FF57 /* main.m */; };
 		96081B9B21B8FE7A00E4FF57 /* CommonClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B9A21B8FE7A00E4FF57 /* CommonClassTests.m */; };
 		96081BA621B8FE7A00E4FF57 /* CommonClassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BA521B8FE7A00E4FF57 /* CommonClassUITests.m */; };
+		96081BB421B8FE8300E4FF57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B8521B8FE7A00E4FF57 /* ViewController.m */; };
+		96081BC021B8FED800E4FF57 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BB721B8FED800E4FF57 /* UIColor+HexColor.m */; };
+		96081BC121B8FED800E4FF57 /* UIImage+ImageCate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BB921B8FED800E4FF57 /* UIImage+ImageCate.m */; };
+		96081BC221B8FED800E4FF57 /* UIResponder+CurrentResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BBB21B8FED800E4FF57 /* UIResponder+CurrentResponder.m */; };
+		96081BC321B8FED800E4FF57 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BBD21B8FED800E4FF57 /* UIViewController+Alert.m */; };
+		96081BC421B8FED800E4FF57 /* UIViewController+Sheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BBF21B8FED800E4FF57 /* UIViewController+Sheet.m */; };
+		96081BC921B8FF0100E4FF57 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BC521B8FF0100E4FF57 /* UIView+Rect.m */; };
+		96081BCA21B8FF0100E4FF57 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BC721B8FF0100E4FF57 /* UIColor+HexString.m */; };
+		96081BCD21B8FF5600E4FF57 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081BCB21B8FF5600E4FF57 /* BaseModel.m */; };
+		96081BCF21B9004F00E4FF57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96081B8221B8FE7A00E4FF57 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +51,7 @@
 		96081B8821B8FE7A00E4FF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96081B8A21B8FE7A00E4FF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96081B8D21B8FE7A00E4FF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96081B8F21B8FE7A00E4FF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96081B8F21B8FE7A00E4FF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../CommonClass/Info.plist; sourceTree = "<group>"; };
 		96081B9021B8FE7A00E4FF57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96081B9621B8FE7A00E4FF57 /* CommonClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96081B9A21B8FE7A00E4FF57 /* CommonClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonClassTests.m; sourceTree = "<group>"; };
@@ -51,6 +59,23 @@
 		96081BA121B8FE7A00E4FF57 /* CommonClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96081BA521B8FE7A00E4FF57 /* CommonClassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonClassUITests.m; sourceTree = "<group>"; };
 		96081BA721B8FE7A00E4FF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96081BB621B8FED800E4FF57 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		96081BB721B8FED800E4FF57 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		96081BB821B8FED800E4FF57 /* UIImage+ImageCate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageCate.h"; sourceTree = "<group>"; };
+		96081BB921B8FED800E4FF57 /* UIImage+ImageCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageCate.m"; sourceTree = "<group>"; };
+		96081BBA21B8FED800E4FF57 /* UIResponder+CurrentResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+CurrentResponder.h"; sourceTree = "<group>"; };
+		96081BBB21B8FED800E4FF57 /* UIResponder+CurrentResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+CurrentResponder.m"; sourceTree = "<group>"; };
+		96081BBC21B8FED800E4FF57 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		96081BBD21B8FED800E4FF57 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		96081BBE21B8FED800E4FF57 /* UIViewController+Sheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Sheet.h"; sourceTree = "<group>"; };
+		96081BBF21B8FED800E4FF57 /* UIViewController+Sheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Sheet.m"; sourceTree = "<group>"; };
+		96081BC521B8FF0100E4FF57 /* UIView+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		96081BC621B8FF0100E4FF57 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		96081BC721B8FF0100E4FF57 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		96081BC821B8FF0100E4FF57 /* UIView+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		96081BCB21B8FF5600E4FF57 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		96081BCC21B8FF5600E4FF57 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		96081BCE21B8FF9600E4FF57 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +128,10 @@
 			children = (
 				96081B8121B8FE7A00E4FF57 /* AppDelegate.h */,
 				96081B8221B8FE7A00E4FF57 /* AppDelegate.m */,
-				96081B8421B8FE7A00E4FF57 /* ViewController.h */,
-				96081B8521B8FE7A00E4FF57 /* ViewController.m */,
-				96081B8721B8FE7A00E4FF57 /* Main.storyboard */,
-				96081B8A21B8FE7A00E4FF57 /* Assets.xcassets */,
-				96081B8C21B8FE7A00E4FF57 /* LaunchScreen.storyboard */,
-				96081B8F21B8FE7A00E4FF57 /* Info.plist */,
-				96081B9021B8FE7A00E4FF57 /* main.m */,
+				96081BCC21B8FF5600E4FF57 /* BaseModel.h */,
+				96081BCB21B8FF5600E4FF57 /* BaseModel.m */,
+				96081BCE21B8FF9600E4FF57 /* CommonDefine.h */,
+				96081BB521B8FED800E4FF57 /* Categeory */,
 			);
 			path = CommonClass;
 			sourceTree = "<group>";
@@ -117,6 +139,13 @@
 		96081B9921B8FE7A00E4FF57 /* CommonClassTests */ = {
 			isa = PBXGroup;
 			children = (
+				96081B8A21B8FE7A00E4FF57 /* Assets.xcassets */,
+				96081B9021B8FE7A00E4FF57 /* main.m */,
+				96081B8F21B8FE7A00E4FF57 /* Info.plist */,
+				96081B8C21B8FE7A00E4FF57 /* LaunchScreen.storyboard */,
+				96081B8721B8FE7A00E4FF57 /* Main.storyboard */,
+				96081B8421B8FE7A00E4FF57 /* ViewController.h */,
+				96081B8521B8FE7A00E4FF57 /* ViewController.m */,
 				96081B9A21B8FE7A00E4FF57 /* CommonClassTests.m */,
 				96081B9C21B8FE7A00E4FF57 /* Info.plist */,
 			);
@@ -130,6 +159,27 @@
 				96081BA721B8FE7A00E4FF57 /* Info.plist */,
 			);
 			path = CommonClassUITests;
+			sourceTree = "<group>";
+		};
+		96081BB521B8FED800E4FF57 /* Categeory */ = {
+			isa = PBXGroup;
+			children = (
+				96081BC621B8FF0100E4FF57 /* UIColor+HexString.h */,
+				96081BC721B8FF0100E4FF57 /* UIColor+HexString.m */,
+				96081BC821B8FF0100E4FF57 /* UIView+Rect.h */,
+				96081BC521B8FF0100E4FF57 /* UIView+Rect.m */,
+				96081BB621B8FED800E4FF57 /* UIColor+HexColor.h */,
+				96081BB721B8FED800E4FF57 /* UIColor+HexColor.m */,
+				96081BB821B8FED800E4FF57 /* UIImage+ImageCate.h */,
+				96081BB921B8FED800E4FF57 /* UIImage+ImageCate.m */,
+				96081BBA21B8FED800E4FF57 /* UIResponder+CurrentResponder.h */,
+				96081BBB21B8FED800E4FF57 /* UIResponder+CurrentResponder.m */,
+				96081BBC21B8FED800E4FF57 /* UIViewController+Alert.h */,
+				96081BBD21B8FED800E4FF57 /* UIViewController+Alert.m */,
+				96081BBE21B8FED800E4FF57 /* UIViewController+Sheet.h */,
+				96081BBF21B8FED800E4FF57 /* UIViewController+Sheet.m */,
+			);
+			path = Categeory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96081B8621B8FE7A00E4FF57 /* ViewController.m in Sources */,
+				96081BCD21B8FF5600E4FF57 /* BaseModel.m in Sources */,
 				96081B9121B8FE7A00E4FF57 /* main.m in Sources */,
-				96081B8321B8FE7A00E4FF57 /* AppDelegate.m in Sources */,
+				96081BC221B8FED800E4FF57 /* UIResponder+CurrentResponder.m in Sources */,
+				96081BCA21B8FF0100E4FF57 /* UIColor+HexString.m in Sources */,
+				96081BCF21B9004F00E4FF57 /* AppDelegate.m in Sources */,
+				96081BC121B8FED800E4FF57 /* UIImage+ImageCate.m in Sources */,
+				96081BC921B8FF0100E4FF57 /* UIView+Rect.m in Sources */,
+				96081BC321B8FED800E4FF57 /* UIViewController+Alert.m in Sources */,
+				96081BC421B8FED800E4FF57 /* UIViewController+Sheet.m in Sources */,
+				96081BC021B8FED800E4FF57 /* UIColor+HexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96081BB421B8FE8300E4FF57 /* ViewController.m in Sources */,
 				96081B9B21B8FE7A00E4FF57 /* CommonClassTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
